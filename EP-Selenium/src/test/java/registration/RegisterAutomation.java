@@ -32,19 +32,9 @@ public class RegisterAutomation {
         driver.findElement(By.xpath("//a[normalize-space()='English']")).click(); // Select English
         driver.findElement(By.cssSelector("body")).click(); // Click outside to close dropdown
         Thread.sleep(3000);
-//        driver.findElement(By.xpath("//div[@id='msdd']")).click(); // Open dropdown
-//        driver.findElement(By.xpath("//a[normalize-space()='Hindi']")).click(); // Select Hindi
-//        driver.findElement(By.cssSelector("body")).click(); // Click outside to close dropdown
-//        Thread.sleep(3000);
 
         Select skills = new Select(driver.findElement(By.id("Skills")));
         skills.selectByVisibleText("Java");
-        
-//        Select countrySelect = new Select(driver.findElement(By.id("countries")));
-//        countrySelect.selectByVisibleText("India");
-        
-//        WebElement countryInput = driver.findElement(By.xpath("//select[@id='countries']"));
-//        countryInput.click();
         
         driver.findElement(By.xpath("//span[@role='combobox']")).click();
         driver.findElement(By.xpath("//li[text()='India']")).click();
@@ -63,11 +53,6 @@ public class RegisterAutomation {
         driver.findElement(By.cssSelector("#submitbtn")).click();
         
         driver.close();
-          
-        
-        
-
-		
 
 	}
 

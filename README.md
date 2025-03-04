@@ -51,7 +51,6 @@ EP-Selenium/
 │── testng.xml                          # TestNG test suite configuration
 │── .gitignore                          # Files and directories to ignore in Git
 │── README.md                           # Project documentation
-│── LICENSE                             # License details
 ```
 
 ## Installation & Setup
@@ -62,11 +61,6 @@ EP-Selenium/
 - TestNG
 - IDE (IntelliJ IDEA / Eclipse)
 
-### Clone Repository
-```sh
- git clone https://github.com/PromojitPaul/EP-Selenium.git
- cd EP-Selenium
-```
 
 ### Install Dependencies
 ```sh
@@ -93,9 +87,6 @@ mvn test -DsuiteXmlFile=TestSuite.xml
 3. Commit changes (`git commit -m "Added new feature"`).
 4. Push to the branch (`git push origin feature-branch-name`).
 5. Create a Pull Request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 For any inquiries, please reach out to **[Promojit Paul](https://github.com/PromojitPaul)**.
